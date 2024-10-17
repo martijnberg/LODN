@@ -1,0 +1,65 @@
+.container {
+  font-family: Arial, sans-serif;
+}
+
+.overview {
+  margin-bottom: 30px;
+}
+
+.navigation-list {
+  list-style-type: none; /* Verwijdert de bullets */
+  padding: 0;
+}
+
+.navigation-list li {
+  margin-bottom: 10px;
+}
+
+.navigation-list a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.navigation-list a:hover {
+  text-decoration: underline;
+}
+
+.custom-list {
+  list-style-type: none; /* Geen bullets voor de lijsten */
+  padding: 0;
+}
+
+.custom-list li {
+  margin-bottom: 15px;
+}
+
+.custom-list a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.custom-list a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  color: white;
+}

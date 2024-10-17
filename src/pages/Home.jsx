@@ -36,13 +36,12 @@ function Home() {
           alle gemakken voor een zorgeloos verblijf. We hopen u binnenkort te
           mogen verwelkomen in La Croix Valmer.
         </p>
-        <Contactformulier />
         <div className="container mt-5">
           <div className="row">
             <div className="col-md-4">
               <div className="card card-vakantiehuis">
                 <img
-                  src="/Home/overons01.jpg"
+                  src="/OverOns/overons55.jpg"
                   className="card-img-top"
                   alt="Card 1"
                 />
@@ -62,7 +61,7 @@ function Home() {
             <div className="col-md-4">
               <div className="card card-vakantiehuis">
                 <img
-                  src="/Home/overons02.jpg"
+                  src="/Carousel/VRBO29.jpg"
                   className="card-img-top"
                   alt="Card 2"
                 />
@@ -82,7 +81,7 @@ function Home() {
             <div className="col-md-4">
               <div className="card card-vakantiehuis">
                 <img
-                  src="/Home/overons03.jpg"
+                  src="/Saint_Tropez.jpg"
                   className="card-img-top"
                   alt="Card 3"
                 />
@@ -101,6 +100,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Contactformulier />
     </>
   );
 }

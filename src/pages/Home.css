@@ -74,7 +74,7 @@ img {
 }
 
 .card-vakantiehuis .card-body {
-  background-color: lightgrey;
+  background-color: rgb(233, 233, 233);
 }
 
 .card-vakantiehuis:hover {
