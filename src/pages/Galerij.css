@@ -1,0 +1,26 @@
+.carousel-container {
+  max-width: 90%;
+  margin: 0 auto; /* Center de galerij */
+}
+
+.carousel-item {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out; /* Snellere fade om witte plek te vermijden */
+}
+
+.carousel-item.active {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out; /* Snellere overgang naar actieve afbeelding */
+}
+
+.carousel-item img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain; /* Zorgt ervoor dat de afbeelding in het frame past zonder bijsnijden */
+}
+
+/* Optioneel: Voeg een subtiel inzoom-effect toe tijdens de overgang */
+.carousel-item.active img {
+  transform: scale(1.02); /* Lichte zoom-in tijdens de overgang */
+  transition: transform 0.4s ease-in-out; /* Zorgt ervoor dat het inzoomeffect wordt gesynchroniseerd met de fade */
+}

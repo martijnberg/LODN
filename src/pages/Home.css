@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+.titel {
+  font-family: "Sacramento", cursive;
+  font-weight: bold;
+  font-size: 6rem;
+  color: rgb(193, 63, 141);
+}
+
+.btn-primary {
+  background-color: rgb(153, 190, 174);
+  border-color: rgb(153, 190, 174);
+}
+
+.btn-primary:hover {
+  background-color: rgb(74, 105, 91);
+  border-color: rgb(74, 105, 91);
+}
+
+/* Voor schermen kleiner dan 768px (tablets en mobiele apparaten) */
+@media (max-width: 768px) {
+  .titel {
+    font-size: 4rem; /* Aanpassing voor tablets */
+  }
+}
+
+/* Voor schermen kleiner dan 576px (kleine mobiele apparaten) */
+@media (max-width: 576px) {
+  .titel {
+    font-size: 2rem; /* Aanpassing voor kleinere telefoons */
+  }
+}
+
+#about img {
+  border-radius: 5px;
+}
+
+img {
+  height: auto; /* Zorg ervoor dat de afbeelding proportioneel schaalt */
+}
+
+.full-width-image {
+  position: relative;
+  width: 100vw; /* Volledige breedte van het browservenster */
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.full-width-image img {
+  width: 100vw; /* Afbeelding vult 100% van het browservenster */
+  height: auto; /* Behoudt de oorspronkelijke verhouding van de afbeelding */
+}
+
+.container {
+  margin-top: 20px; /* Zodat de tekst niet tegen de afbeelding aankomt */
+}
+
+.uitleg {
+  padding-top: 40px;
+  text-align: left;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-vakantiehuis {
+  background-color: rgb(193, 63, 141);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-vakantiehuis .card-body {
+  background-color: lightgrey;
+}
+
+.card-vakantiehuis:hover {
+  transform: scale(1.05); /* Licht zoomeffect bij hover */
+}
+
+.card-img-top {
+  border-radius: 15px 15px 0 0; /* Alleen de bovenste hoeken afronden */
+  height: 200px;
+  object-fit: cover; /* Zorg ervoor dat de afbeelding proportioneel blijft */
+}
+
+.btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white;
+}

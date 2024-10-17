@@ -1,0 +1,119 @@
+.timeline-container {
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.timeline {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color: #bbb;
+}
+
+.timeline-item {
+  display: flex;
+  margin-bottom: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.timeline-item.left {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.timeline-item.right {
+  justify-content: flex-start;
+}
+
+.timeline-content {
+  position: relative;
+  width: 45%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.timeline-images {
+  display: flex;
+  flex-direction: column; /* Zet de foto's onder elkaar */
+  gap: 10px;
+  align-items: center; /* Centreert de foto's horizontaal */
+  justify-content: center; /* Centreert de foto's verticaal */
+}
+
+.timeline-image {
+  width: 90%; /* Zorg dat de afbeelding 90% van de breedte inneemt */
+  height: auto;
+  max-height: 400px;
+  object-fit: contain; /* Zorg ervoor dat de afbeelding proportioneel blijft */
+  border-radius: 10px; /* Ronde hoeken voor de foto's */
+}
+
+.timeline-text {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.timeline-text h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  color: #444;
+}
+
+.timeline-text p {
+  margin: 5px 0;
+  color: #666;
+}
+
+/* Aanpassingen voor mobiele apparaten */
+@media (max-width: 768px) {
+  .timeline-container {
+    padding: 0px;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .timeline-item {
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Laat de items de volledige breedte van het scherm innemen */
+  }
+
+  .timeline-item.left,
+  .timeline-item.right {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .timeline-content {
+    width: 100%; /* Zorg dat de content 100% breed is op mobiele apparaten */
+  }
+
+  .timeline::before {
+    left: 50%;
+    height: 100%;
+  }
+}

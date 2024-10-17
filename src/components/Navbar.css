@@ -1,0 +1,26 @@
+.custom-navbar {
+  background-color: rgb(153, 190, 174); /* Kleur van de navbar */
+  padding: 0.2rem 0.5rem; /* Nog kleinere padding voor een lagere hoogte */
+  width: 100%;
+  height: auto;
+}
+
+.custom-navbar .navbar-brand {
+  font-size: 1.4rem; /* Eventueel het lettertype van de branding iets kleiner maken */
+  padding: 0.1rem 0; /* Nog minder padding rond de branding */
+}
+
+.custom-navbar .nav-link {
+  font-size: 0.9rem; /* Verklein de tekst van de links */
+  padding: 0.4rem 0.6rem; /* Verklein de padding van de links om hoogte te verminderen */
+}
+
+.custom-navbar .navbar-toggler {
+  padding: 0.25rem 0.75rem; /* Kleinere padding voor de toggler */
+}
+.custom-navbar .navbar-brand {
+  font-size: 1.2rem; /* Verklein de lettergrootte */
+  padding: 0.2rem 0; /* Verklein de padding rond de brand */
+  margin: 0; /* Verwijder eventuele marges */
+  line-height: 1.2; /* Verminder de line-height om de tekst dichter bij elkaar te plaatsen */
+}
