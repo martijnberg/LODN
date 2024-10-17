@@ -6,7 +6,7 @@ function Omgeving() {
     <div className="container">
       <h1>Omgeving</h1>
       <br></br>
-      <h2>Work in progress...</h2>
+      <h2>Wordt vervolgd...</h2>
     </div>
   );
 }
