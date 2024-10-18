@@ -1,7 +1,20 @@
 import React from "react";
 import Contactformulier from "../components/Contactformulier";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 function Contact() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" }); // Scroll naar het element
+      }
+    }
+  }, [location]);
+
   return (
     <div className="container">
       <h1>Interesse?</h1>
