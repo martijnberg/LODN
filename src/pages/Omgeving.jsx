@@ -13,13 +13,10 @@ function Omgeving() {
         <h2>Verken de categorieën:</h2>
         <ul className="navigation-list">
           <li>
-            <a href="#bezienswaardigheden">Marktjes</a>
+            <a href="#marktjes">Marktjes</a>
           </li>
           <li>
             <a href="#restaurants">Leuke Restaurantjes in de Buurt</a>
-          </li>
-          <li>
-            <a href="#praktisch">Praktische Informatie</a>
           </li>
           <li>
             <a href="#ontdekken">Meer te Ontdekken</a>
@@ -28,23 +25,23 @@ function Omgeving() {
       </div>
 
       {/* Bezienswaardigheden en Activiteiten */}
-      <section id="bezienswaardigheden" className="mb-5">
+      <section id="marktjes" className="mb-5">
         <h2>Marktjes</h2>
         <ul className="custom-list">
           <li>
-            <strong>Markt op Place des Palmiers</strong> – Elke zondagochtend
-            kunt u hier in het centrum can La Croix Valmer lokale producten
-            kopen.
+            <strong>Place des Palmiers, La Croix Valmer</strong> – Elke
+            zondagochtend kunt u hier in het centrum can La Croix Valmer lokale
+            producten kopen.
           </li>
           <li>
-            <strong>Markt op Place des Lices, Saint Tropez</strong> – Elke
+            <strong>Place des Lices, Saint Tropez</strong> – Elke
             zaterdagochtend en dinsdagochtend is er markt op de Place des Lices
             in Saint Tropez. Deze drukbezochte markt is zeer uitgebreid. Zo is
             er ook een uitgebreid antiek- en vintage aanbod. Vertrek in het
             hoogseizoen op tijd want het kan vrij druk zijn in het hoogseizoen.
           </li>
           <li>
-            <strong>Brocante Jas des Robert</strong> – Vindt plaats iedere
+            <strong>Jas des Robert, Cogolin</strong> – Vindt plaats iedere
             zondagochtend in Cogolin op het kruispunt van Chemin des Pasquiers
             and Chemin de Nègresse. Deze authentieke provençaalse brocante wordt
             zowel door toeristen als locals druk bezocht.
@@ -71,7 +68,7 @@ function Omgeving() {
             >
               Bezoek de website
             </a>
-          </li>{" "}
+          </li>
           <li>
             <strong>Café Valmer</strong> – Gelegen in het centrum van La Croix
             Valmer. Café Valmer staat bekend als een uitstekend visrestaurant.
@@ -102,49 +99,36 @@ function Omgeving() {
         </a>{" "}
         {/* Terug naar boven knop */}
       </section>
-
-      {/* Praktische Informatie */}
-      <section id="praktisch" className="mb-5">
-        <h2>Praktische Informatie</h2>
+      {/* Restaurantjes in de Buurt */}
+      <section id="ontdekken" className="mb-5">
+        <h2>Meer te ontdekken</h2>
         <ul className="custom-list">
           <li>
-            <strong>Huisarts Dr. Martin</strong> – Voor medische hulp tijdens uw
-            verblijf.
+            <strong>Plage Sylvabelle</strong> – Idyllisch strandje tussen plage
+            du Débarquement en Figaro. Alleen te voet bereikbaar.
             <a
-              href="https://www.drmartin.com"
+              href="https://www.plages.tv/detail/plage-de-sylvabelle-la-croix-valmer-83420"
               target="_blank"
               rel="noopener noreferrer"
               className="description-link"
             >
-              Bezoek de website
+              Meer lezen
             </a>
           </li>
           <li>
-            <strong>Apotheek Valmer</strong> – Voor al uw medische
-            benodigdheden.
+            <strong>Diverse zaken</strong> – In de omgeving zijn nog tal van
+            andere leuke plekjes om te ontdekken, van kleine boetiekjes tot
+            wijngaarden.
             <a
-              href="https://www.pharmacievalmer.com"
+              href="https://lenauticbeach.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="description-link"
             >
-              Bekijk meer
+              Vraag ons gerust om tips!
             </a>
           </li>
         </ul>
-        <a href="#top" className="btn btn-primary">
-          Terug naar boven
-        </a>{" "}
-        {/* Terug naar boven knop */}
-      </section>
-
-      {/* Meer te Ontdekken */}
-      <section id="ontdekken">
-        <h2>Meer te Ontdekken</h2>
-        <p>
-          In de omgeving zijn nog tal van andere leuke plekjes om te ontdekken,
-          van kleine boetiekjes tot wijngaarden. Vraag ons gerust om tips!
-        </p>
         <a href="#top" className="btn btn-primary">
           Terug naar boven
         </a>{" "}
