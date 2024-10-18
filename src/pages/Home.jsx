@@ -48,8 +48,8 @@ function Home() {
                 <div className="card-body">
                   <h5 className="card-title">Over ons</h5>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-                    ratione neque at et amet repellendus?{" "}
+                    Ontdek de rijke geschiedenis van ons familiehuis,
+                    gerenoveerd met liefde en modern comfort.
                   </p>
                   <Link to="/over-ons" className="btn btn-primary">
                     Lees meer
@@ -68,8 +68,8 @@ function Home() {
                 <div className="card-body">
                   <h5 className="card-title">Fotogalerij</h5>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-                    ratione neque at et amet repellendus?{" "}
+                    Bekijk prachtige foto’s van ons huis, inclusief het zwembad
+                    en een panoramisch uitzicht op zee.
                   </p>
                   <Link to="/galerij" className="btn btn-primary">
                     Lees meer
@@ -88,8 +88,8 @@ function Home() {
                 <div className="card-body">
                   <h5 className="card-title">Omgeving</h5>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-                    ratione neque at et amet repellendus?{" "}
+                    Verken de charmante omgeving met gezellige marktjes,
+                    prachtige stranden en heerlijke restaurants.
                   </p>
                   <Link to="/omgeving" className="btn btn-primary">
                     Lees meer

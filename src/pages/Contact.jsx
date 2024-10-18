@@ -17,7 +17,9 @@ function Contact() {
         wordt beantwoord en, indien nodig, doorgegeven aan ASK Conciergerie.
       </p>
       <p> Wij hopen u snel te mogen verwelkomen in Les Oiseaux du Nord!</p>
-      <Contactformulier />
+      <div id="contact-form">
+        <Contactformulier />
+      </div>
     </div>
   );
 }

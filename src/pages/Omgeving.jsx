@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Omgeving.css";
 
 function Omgeving() {
@@ -119,19 +120,12 @@ function Omgeving() {
             <strong>Diverse zaken</strong> – In de omgeving zijn nog tal van
             andere leuke plekjes om te ontdekken, van kleine boetiekjes tot
             wijngaarden.
-            <a
-              href="https://lenauticbeach.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="description-link"
-            >
-              Vraag ons gerust om tips!
-            </a>
+            <Link to="/contact#contact-form">Vraag ons gerus om tips</Link>
           </li>
         </ul>
         <a href="#top" className="btn btn-primary">
           Terug naar boven
-        </a>{" "}
+        </a>
         {/* Terug naar boven knop */}
       </section>
     </div>
