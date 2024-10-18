@@ -52,7 +52,7 @@ function Omgeving() {
         </ul>
         <a href="#top" className="btn btn-primary">
           Terug naar boven
-        </a>{" "}
+        </a>
         {/* Terug naar boven knop */}
       </section>
 
