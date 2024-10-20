@@ -93,6 +93,19 @@ function Omgeving() {
             >
               Bezoek de website
             </a>
+          </li>{" "}
+          <li>
+            <strong>la Verdoyante</strong> – Authentiek provencaals eten in deze
+            rustiek boerderij met mooie tuin. Gelegen in Gassin met uitzicht
+            over de wijnvelden van Saint-Tropez.
+            <a
+              href="https://www.la-verdoyante.fr/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="description-link"
+            >
+              Bezoek de website
+            </a>
           </li>
         </ul>
         <a href="#top" className="btn btn-primary">
@@ -108,7 +121,7 @@ function Omgeving() {
             <strong>Plage Sylvabelle</strong> – Idyllisch strandje tussen plage
             du Débarquement en Figaro. Alleen te voet bereikbaar.
             <a
-              href="https://www.plages.tv/detail/plage-de-sylvabelle-la-croix-valmer-83420"
+              href="https://www.lacroixvalmertourisme.com/fr/decouvrir-et-s-evader/les-pieds-dans-l-eau/sylvabelle"
               target="_blank"
               rel="noopener noreferrer"
               className="description-link"

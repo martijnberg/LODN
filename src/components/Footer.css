@@ -3,24 +3,3 @@
 
   text-align: center;
 }
-
-.footer-content {
-  margin-bottom: 20px; /* Voeg wat ruimte toe tussen de content en het icon */
-}
-
-.footer-icon {
-  display: flex;
-  justify-content: center; /* Centraal uitlijnen */
-  align-items: center;
-}
-
-.instagram-icon {
-  width: 48px; /* Pas de grootte van het icoon aan */
-  height: 48px;
-  color: #e1306c; /* Sierlijke Instagram kleur */
-  transition: all 0.3s ease;
-}
-
-.footer-icon a:hover .instagram-icon {
-  color: #c13584; /* Verander de kleur bij hover voor een subtiel effect */
-}

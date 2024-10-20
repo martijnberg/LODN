@@ -1,0 +1,16 @@
+.instagram-div {
+  display: flex;
+  justify-content: center; /* Centraal uitlijnen */
+  padding-top: 40px;
+}
+
+.instagram-icon {
+  width: 24px; /* Pas de grootte van het icoon aan */
+  height: 24px;
+  color: #e1306c; /* Sierlijke Instagram kleur */
+  transition: all 0.3s ease;
+}
+
+.instagram-icon:hover {
+  color: #c13584; /* Verander de kleur bij hover voor een subtiel effect */
+}

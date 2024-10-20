@@ -42,7 +42,7 @@ function OverOns() {
     {
       year: "2021-2022",
       images: ["/OverOns/overons57.jpg"],
-      text: "het huis werd volledig gerenoveerd. Er kwamen airconditioning, een zwembad en moderne badkamers. Het huis werd beschikbaar voor verhuur voor bepertke tijd in de zomer.",
+      text: "Het huis werd volledig gerenoveerd. Naast zwembad en nieuw terras  kwamen airconditioning, en moderne badkamers. Het huis werd beschikbaar voor verhuur voor beperkte tijd in de zomer.",
     },
   ];
 

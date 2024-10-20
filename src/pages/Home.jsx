@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import Contactformulier from "../components/Contactformulier";
+import Socials from "../components/Soclals";
 
 function Home() {
   return (
@@ -101,6 +102,7 @@ function Home() {
         </div>
       </div>
       <Contactformulier />
+      <Socials />
     </>
   );
 }

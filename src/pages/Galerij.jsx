@@ -14,7 +14,7 @@ function Galerij() {
   };
 
   // Genereer een array met 33 afbeeldingen
-  const images = generateImageArray(33);
+  const images = generateImageArray(31);
 
   return (
     <div className="carousel-container">

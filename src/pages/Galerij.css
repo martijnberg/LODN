@@ -6,6 +6,8 @@
 .carousel-item {
   opacity: 0;
   transition: opacity 0.4s ease-in-out; /* Snellere fade om witte plek te vermijden */
+  position: relative;
+  overflow: hidden; /* Zorg ervoor dat alles buiten de container wordt verborgen */
 }
 
 .carousel-item.active {
@@ -25,5 +27,5 @@
 /* Optioneel: Voeg een subtiel inzoom-effect toe tijdens de overgang */
 .carousel-item.active img {
   transform: scale(1.02); /* Lichte zoom-in tijdens de overgang */
-  transition: transform 0.4s ease-in-out; /* Zorgt ervoor dat het inzoomeffect wordt gesynchroniseerd met de fade */
+  transition: transform 0.5s ease; /* Zorgt ervoor dat het inzoomeffect wordt gesynchroniseerd met de fade */
 }
