@@ -11,7 +11,7 @@ function OverOns() {
     {
       year: "1965",
       images: ["OverOns/overons19.jpg"],
-      text: "In 1965 werd in de wijnvelden het Lotissement Val Du Mer gerealiseerd.",
+      text: "In 1965 werd in de wijnvelden het Lotissement Val Du Mer gerealiseerd. Ons huis werd als tweede huis gebouwd door de beroemde architect Saviotti. ",
     },
     {
       year: "1976",
@@ -37,7 +37,7 @@ function OverOns() {
         "/OverOns/overons59.jpg",
         "/OverOns/overons56.jpg",
       ],
-      text: "In 2021 werd het eigenaarschap doorgegeven binnen de familie, er werd een zwembad aangelegd met een nieuw terras.",
+      text: "In 2021 werd gestart met een grondige renovatie, er werd een zwembad aangelegd met een nieuw terras.",
     },
     {
       year: "2021-2022",

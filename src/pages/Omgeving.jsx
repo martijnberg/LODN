@@ -120,7 +120,7 @@ function Omgeving() {
             <strong>Diverse zaken</strong> – In de omgeving zijn nog tal van
             andere leuke plekjes om te ontdekken, van kleine boetiekjes tot
             wijngaarden.
-            <Link to="/contact#contact-form">Vraag ons gerus om tips</Link>
+            <Link to="/contact#contact-form">Vraag ons gerust om tips</Link>
           </li>
         </ul>
         <a href="#top" className="btn btn-primary">
