@@ -22,7 +22,10 @@ function Contact() {
         Voor vragen over de verhuur van ons vakantiehuis werken wij samen met
         ASK Conciergerie. Zij beheren de boekingen en zorgen voor een soepel
         verloop van uw verblijf. U kunt direct contact opnemen via hun website:
-        <a href="https://www.askconciergerie.fr/">ASK Conciergerie</a>.
+        <a href="https://www.askconciergerie.fr/" target="_blank">
+          ASK Conciergerie
+        </a>
+        .
       </p>
       <p>
         Daarnaast kunt u ook onderstaand contactformulier invullen voor algemene
