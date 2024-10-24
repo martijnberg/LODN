@@ -95,6 +95,19 @@ function Omgeving() {
             </a>
           </li>{" "}
           <li>
+            <strong>Le Magnan</strong> – Traditioneel restaurant met echte
+            Franse keuken. Heel mooi gelegen. Let op: maandag en dinsdag
+            gesloten.
+            <a
+              href="https://www.lemagnan.fr/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="description-link"
+            >
+              Bezoek de website
+            </a>
+          </li>{" "}
+          <li>
             <strong>la Verdoyante</strong> – Authentiek provencaals eten in deze
             rustiek boerderij met mooie tuin. Gelegen in Gassin met uitzicht
             over de wijnvelden van Saint-Tropez.
